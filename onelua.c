@@ -13,7 +13,7 @@
 
 /* choose suitable platform-specific features */
 /* some of these may need extra libraries such as -ldl -lreadline -lncurses */
-#if 0
+#if defined KINEMATICS_PLATFORM_LINUX
 #define LUA_USE_LINUX
 #define LUA_USE_MACOSX
 #define LUA_USE_POSIX

@@ -8,8 +8,10 @@ project "lua"
 
 	files
 	{        
-        "**.h",
-        "**.c"
+        "onelua.c",
+        "lualib.h",
+        "lua.h",
+        "lua.c"
     }
 
     excludes
